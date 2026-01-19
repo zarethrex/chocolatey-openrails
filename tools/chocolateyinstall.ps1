@@ -1,12 +1,12 @@
 
 $ErrorActionPreference = 'Stop';
-$checksum = "450702aac92dbfb68a2b1b4a4be5b24eea19e41c4496f7eccfc98ea19abc64b2f493d3e607c2ac5aab3754830f633ef3ab069325fe0a099cf78a012e9e6b0c65"
+$checksum = "c5698c877dde909ecbcd02474956fa36033ee31ba47e30cc3c733d42b9188507ac7364d870699d34695b9d628b1d7bb4064275c0e809c4108d121049bb744c03"
 $repository = "openrails/openrails"
 $software_name = "Open Rails"
 
 Write-Host "Fetching version '$env:ChocolateyPackageVersion'"
 
-$download_url = "https://github.com/$repository/releases/download/$env:ChocolateyPackageVersion/OpenRails-$env:ChocolateyPackageVersion.zip"
+$download_url = "https://github.com/$repository/releases/download/1.6/Open.Rails.1.6.zip"
 $toolsDir = "${env:ProgramFiles(x86)}\$software_name"
 
 $packageArgs = @{
