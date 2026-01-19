@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.6.0</version>
+    <version>1.6.1</version>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <!-- ============================== -->
@@ -52,7 +52,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <copyright>© 2024 Open Rails</copyright>
     <summary>Totally free train simulator that supports</summary>
     <releaseNotes>
-   https://github.com/openrails/openrails/releases/tag/1.6
+   https://github.com/openrails/openrails/releases/tag/1.6.1
     </releaseNotes>
     <description><![CDATA[The world's largest range of digital content. Open Rails provides a train simulator for the largest collection of digital content in the world - routes, rolling stock and activities - initially developed for Microsoft's Train Simulator product.]]>
 </description>
